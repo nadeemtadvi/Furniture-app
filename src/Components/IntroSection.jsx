@@ -10,10 +10,10 @@ const IntroSection = () => {
           <h4>Modern Interior</h4>
           <h4>Design Studio</h4>
           <div className="mt-12 font-medium">
-            <button className="rounded-full border border-yellow-500 bg-yellow-500 text-[1rem] text-black p-[4px_22px_5px]">
+            <button className="rounded-full border border-yellow-500 bg-yellow-500 text-[0.85rem] text-black p-[4px_22px_5px]">
               Shop Now
             </button>
-            <button className="ml-4 border border-white rounded-full text-white text-[1rem] p-[4px_22px_5px]">
+            <button className="ml-4 border border-white rounded-full text-white text-[0.85rem] p-[4px_22px_5px]">
               Explore
             </button>
           </div>

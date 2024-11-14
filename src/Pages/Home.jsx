@@ -4,6 +4,9 @@ import IntroSection from "../Components/IntroSection";
 import Explore from "../Components/Explore";
 import Chooseus from "../Components/Chooseus";
 import InteriorDesign from "../Components/InteriorDesign";
+import Feature from "../Components/Feature";
+import Testimonial from "../Components/Testimonial";
+import RecentBlog from "../Components/RecentBlog";
 
 const Home = () => {
   return (
@@ -15,6 +18,9 @@ const Home = () => {
       <Explore/>
       <Chooseus/>
       <InteriorDesign/>
+      <Feature/>
+      <Testimonial/>
+      <RecentBlog/>
     </div>
   );
 };
