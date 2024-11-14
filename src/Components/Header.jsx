@@ -5,7 +5,7 @@ const Header = () => {
     <div className="max-w-screen-xl mx-auto  py-6 text-[1.2rem] text-white h-[72px] flex px-3">
       <div className="flex items-center justify-between w-full mx-auto">
         <div>LOGO</div>
-        <div className="flex items-center gap-16">
+        <div className="flex items-center gap-16 text-[0.9rem]">
           <ul className="flex items-center gap-16">
             <li>Home</li>
             <li>About us</li>
