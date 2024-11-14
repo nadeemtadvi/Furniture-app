@@ -3,6 +3,7 @@ import Header from "../Components/Header";
 import IntroSection from "../Components/IntroSection";
 import Explore from "../Components/Explore";
 import Chooseus from "../Components/Chooseus";
+import InteriorDesign from "../Components/InteriorDesign";
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       </div>
       <Explore/>
       <Chooseus/>
+      <InteriorDesign/>
     </div>
   );
 };
