@@ -6,14 +6,14 @@ const IntroSection = () => {
   return (
     <div className="max-w-screen-xl mx-auto flex items-center px-3  !h- h-[calc(90vh_-_72px)]">
       <div className="flex-none h-full flex items-center">
-        <div className=" text-[2.6rem] text-white h-[318px] font-bold">
+        <div className=" text-[3rem] text-white h-[318px] font-bold">
           <h4>Modern Interior</h4>
           <h4>Design Studio</h4>
-          <div className="mt-12 font-medium">
-            <button className="rounded-full border border-yellow-500 bg-yellow-500 text-[0.85rem] text-black p-[4px_22px_5px]">
+          <div className="mt-12 font-semibold">
+            <button className="rounded-full border border-yellow-500 bg-yellow-500 text-[0.94rem] text-black p-[4px_22px_5px]">
               Shop Now
             </button>
-            <button className="ml-4 border border-white rounded-full text-white text-[0.85rem] p-[4px_22px_5px]">
+            <button className="ml-4 border border-white rounded-full text-white text-[0.94rem] p-[4px_22px_5px]">
               Explore
             </button>
           </div>

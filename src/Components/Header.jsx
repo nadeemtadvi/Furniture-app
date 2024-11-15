@@ -2,7 +2,7 @@ import React from "react";
 
 const Header = () => {
   return (
-    <div className="max-w-screen-xl mx-auto  py-6 text-[1.2rem] text-white h-[72px] flex px-3">
+    <div className="max-w-screen-xl mx-auto  py-6 text-[1.2rem] text-white h-[72px] flex px-3 font-medium">
       <div className="flex items-center justify-between w-full mx-auto">
         <div>LOGO</div>
         <div className="flex items-center gap-16 text-[0.9rem]">

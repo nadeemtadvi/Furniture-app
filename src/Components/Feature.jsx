@@ -12,13 +12,13 @@ const Feature = () => {
             <img src={imageStatic} className="w-[120px] h-[120px]" alt="" />
           </div>
           <div className="grow self-center">
-            <h4 className="text-[0.94rem] mb-3 capitalize font-medium">
+            <h4 className="text-[0.94rem] mb-2 capitalize font-semibold">
               Nordiac Chair
             </h4>
-            <p className="text-[0.85rem] mb-3 font-light text-[#878787]">
+            <p className="text-[0.94rem] mb-2 font-normal text-[#878787]">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit.{" "}
             </p>
-            <p className="text-[0.85rem] mb-4 font-medium text-[#5e5e5e]">
+            <p className="text-[0.94rem] mb-4 font-medium text-[#5e5e5e]">
               Read more{" "}
             </p>
           </div>
@@ -28,13 +28,13 @@ const Feature = () => {
             <img src={imageStatic2} className="w-[120px] h-[120px]" alt="" />
           </div>
           <div className="grow self-center">
-            <h4 className="text-[0.94rem] mb-3 capitalize font-medium">
+            <h4 className="text-[0.94rem] mb-2 capitalize font-semibold">
               Nordiac Chair
             </h4>
-            <p className="text-[0.85rem] mb-3 font-light text-[#878787]">
+            <p className="text-[0.94rem] mb-2 font-normal text-[#878787]">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit.{" "}
             </p>
-            <p className="text-[0.85rem] mb-4 font-medium text-[#5e5e5e]">
+            <p className="text-[0.94rem] mb-4 font-medium text-[#5e5e5e]">
               Read more{" "}
             </p>
           </div>
@@ -44,13 +44,13 @@ const Feature = () => {
             <img src={imageStatic3} className="w-[120px] h-[120px]" alt="" />
           </div>
           <div className="grow self-center">
-            <h4 className="text-[0.94rem] mb-3 capitalize font-medium">
+            <h4 className="text-[0.94rem] mb-2 capitalize font-semibold">
               Nordiac Chair
             </h4>
-            <p className="text-[0.85rem] mb-3 font-light text-[#878787]">
+            <p className="text-[0.94rem] mb-2 font-normal text-[#878787]">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit.{" "}
             </p>
-            <p className="text-[0.85rem] mb-4 font-medium text-[#5e5e5e]">
+            <p className="text-[0.94rem] mb-4 font-medium text-[#5e5e5e]">
               Read more{" "}
             </p>
           </div>

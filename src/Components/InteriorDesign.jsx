@@ -25,10 +25,10 @@ const InteriorDesign = () => {
           </div>
         </div>
         <div>
-          <h4 className="text-[1.6rem] leading-tight font-semibold mb-6">
+          <h4 className="text-[1.85rem] leading-tight font-semibold mb-6">
             We help you make <br /> Modern Interior Design
           </h4>
-          <p className="text-[0.85rem] mb-8 font-light text-[#878787]">
+          <p className="text-[0.94rem] mb-8 font-normal text-[#878787]">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores
             quis possimus labore aliquid ratione rerum necessitatibus unde.
             Doloribus, atque porro.
@@ -36,30 +36,30 @@ const InteriorDesign = () => {
           <div className="grid grid-cols-2 gap-4 mb-6">
             <div className="flex gap-4">
               <div className="flex-none">Dot</div>
-              <p className="grow text-[0.85rem] mb-4 font-light text-[#878787]">
+              <p className="grow text-[0.94rem] mb-4 font-normal text-[#878787]">
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit.
               </p>
             </div>
             <div className="flex gap-4">
               <div className="flex-none">Dot</div>
-              <p className="grow text-[0.85rem] mb-4 font-light text-[#878787]">
+              <p className="grow text-[0.94rem] mb-4 font-normal text-[#878787]">
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit.
               </p>
             </div>
             <div className="flex gap-4">
               <div className="flex-none">Dot</div>
-              <p className="grow text-[0.85rem] mb-4 font-light text-[#878787]">
+              <p className="grow text-[0.94rem] mb-4 font-normal text-[#878787]">
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit.
               </p>
             </div>
             <div className="flex gap-4">
               <div className="flex-none">Dot</div>
-              <p className="grow text-[0.85rem] mb-4 font-light text-[#878787]">
+              <p className="grow text-[0.94rem] mb-4 font-normal text-[#878787]">
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit.
               </p>
             </div>
           </div>
-          <button className="text-white bg-neutral-700 text-[0.85rem] rounded-full p-[4px_24px_5px]">
+          <button className="text-white font-semibold bg-neutral-700 text-[0.94rem] rounded-full p-[4px_24px_5px]">
             Explore
           </button>
         </div>

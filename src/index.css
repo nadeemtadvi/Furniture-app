@@ -1,21 +1,50 @@
 @font-face {
-  font-family: 'Modern';
-  src: url('./assets/Fonts/montserrat/Montserrat-Regular.ttf') format('truetype');
-  font-weight: normal;
+  font-family: "Modern";
+  src: url("./assets/Fonts/montserrat/Montserrat-Light.ttf")
+    format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Modern";
+  src: url("./assets/Fonts/montserrat/Montserrat-Regular.ttf")
+    format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Modern";
+  src: url("./assets/Fonts/montserrat/Montserrat-Medium.ttf")
+    format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Modern";
+  src: url("./assets/Fonts/montserrat/Montserrat-SemiBold.ttf")
+    format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Modern";
+  src: url("./assets/Fonts/montserrat/Montserrat-Bold.ttf")
+    format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Modern";
+  src: url("./assets/Fonts/montserrat/Montserrat-ExtraBold.ttf")
+    format("truetype");
+  font-weight: 700;
   font-style: normal;
 }
 
 body {
   margin: 0;
-  font-family: 'Modern',
-    sans-serif;
+  font-family: "Modern", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
