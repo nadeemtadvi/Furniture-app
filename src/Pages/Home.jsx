@@ -7,6 +7,7 @@ import InteriorDesign from "../Components/InteriorDesign";
 import Feature from "../Components/Feature";
 import Testimonial from "../Components/Testimonial";
 import RecentBlog from "../Components/RecentBlog";
+import Newsletter from "../Components/Newsletter";
 
 const Home = () => {
   return (
@@ -21,6 +22,7 @@ const Home = () => {
       <Feature/>
       <Testimonial/>
       <RecentBlog/>
+      <Newsletter/>
     </div>
   );
 };
