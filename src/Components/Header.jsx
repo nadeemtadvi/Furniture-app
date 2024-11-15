@@ -1,4 +1,6 @@
 import React from "react";
+import { FiUser } from "react-icons/fi";
+import { FiShoppingCart } from "react-icons/fi";
 
 const Header = () => {
   return (
@@ -15,9 +17,9 @@ const Header = () => {
             <li>Contact us</li>
           </ul>
           </div>
-          <div className="flex items-center gap-16">
-            <div>IC</div>
-            <div>IC</div>
+          <div className="flex items-center gap-10 text-[1.2rem]">
+            <div><FiUser/></div>
+            <div><FiShoppingCart/></div>
           </div>
         </div>
       </div>

@@ -1,4 +1,8 @@
 import React from "react";
+import { FaFacebookF } from "react-icons/fa";
+import { IoLogoInstagram } from "react-icons/io5";
+import { FaTwitter } from "react-icons/fa6";
+import { FaLinkedinIn } from "react-icons/fa6";
 
 const Footer = () => {
   return (
@@ -38,10 +42,10 @@ const Footer = () => {
         </div>
       </div>
       <div className="flex items-center gap-3">
-      <div className="bg-gray-300 w-[36px] h-[36px] rounded-full flex items-center justify-center">A</div>
-      <div className="bg-gray-300 w-[36px] h-[36px] rounded-full flex items-center justify-center">A</div>
-      <div className="bg-gray-300 w-[36px] h-[36px] rounded-full flex items-center justify-center">A</div>
-      <div className="bg-gray-300 w-[36px] h-[36px] rounded-full flex items-center justify-center">A</div>
+      <div className="bg-gray-200 w-[36px] h-[36px] rounded-full flex items-center justify-center text-gray-800"><FaFacebookF/></div>
+      <div className="bg-gray-200 w-[36px] h-[36px] rounded-full flex items-center justify-center text-gray-800"><IoLogoInstagram/></div>
+      <div className="bg-gray-200 w-[36px] h-[36px] rounded-full flex items-center justify-center text-gray-800"><FaTwitter/></div>
+      <div className="bg-gray-200 w-[36px] h-[36px] rounded-full flex items-center justify-center text-gray-800"><FaLinkedinIn/></div>
       </div>
     </div>
   );

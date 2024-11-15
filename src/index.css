@@ -48,7 +48,9 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-
+html, body{
+  overflow-x: hidden;
+}
 
 @media screen and (max-width: 1225px) {
   .img-container {
