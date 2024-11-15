@@ -3,13 +3,13 @@ import imgprofile from "../assets/Images/pexels-amir-abbaspoor-748889438-2939185
 
 const Testimonial = () => {
   return (
-    <div className="max-w-screen-xl mx-auto py-16 px-3">
-      <h4 className="text-[1.85rem] leading-tight font-semibold mb-10 text-center">
+    <div className="max-w-screen-xl mx-auto py-6 sm:py-16 px-2 sm:px-3">
+      <h4 className="text-[1.54rem] sm:text-[1.85rem] leading-tight font-semibold mb-4 sm:mb-10 text-center">
         Testimonials
       </h4>
-      <div className="grid grid-cols-3 gap-6">
+      <div className="sm:grid grid-cols-3 gap-6">
         <div>
-          <p className="text-[0.94rem] mb-8 font-normal text-black text-justify">
+          <p className="text-[0.81rem] sm:text-[0.94rem] mb-8 font-normal text-black text-justify">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores
             quis possimus labore aliquid ratione rerum necessitatibus unde.
             Doloribus, atque porro. Lorem ipsum dolor sit amet consectetur,
@@ -22,7 +22,7 @@ const Testimonial = () => {
                 className="w-[70px] h-[70px] rounded-full mx-auto object-cover mb-2  "
                 alt=""
               />
-              <h4 className="text-[0.94rem] font-medium text-black">
+              <h4 className="text-[0.81rem] sm:text-[0.94rem] font-medium text-black">
                 Michelle Anna
               </h4>
               <p className="text-[0.75rem] mb-2 font-medium text-[#878787]">
@@ -33,7 +33,7 @@ const Testimonial = () => {
         </div>
         <div>
         
-          <p className="text-[0.94rem] mb-8 font-normal text-black text-justify">
+          <p className="text-[0.81rem] sm:text-[0.94rem] mb-8 font-normal text-black text-justify">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores
             quis possimus labore aliquid ratione rerum necessitatibus unde.
             Doloribus, atque porro. Lorem ipsum dolor sit amet consectetur,
@@ -46,7 +46,7 @@ const Testimonial = () => {
                 className="w-[70px] h-[70px] rounded-full mx-auto object-cover mb-2  "
                 alt=""
               />
-              <h4 className="text-[0.94rem] font-medium text-black">
+              <h4 className="text-[0.81rem] sm:text-[0.94rem] font-medium text-black">
                 Michelle Anna
               </h4>
               <p className="text-[0.75rem] mb-2 font-medium text-[#878787]">
@@ -57,7 +57,7 @@ const Testimonial = () => {
         </div>
         <div>
          
-          <p className="text-[0.94rem] mb-8 font-normal text-black text-justify">
+          <p className="text-[0.81rem] sm:text-[0.94rem] mb-8 font-normal text-black text-justify">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores
             quis possimus labore aliquid ratione rerum necessitatibus unde.
             Doloribus, atque porro. Lorem ipsum dolor sit amet consectetur,
@@ -70,7 +70,7 @@ const Testimonial = () => {
                 className="w-[70px] h-[70px] rounded-full mx-auto object-cover mb-2  "
                 alt=""
               />
-              <h4 className="text-[0.94rem] font-medium text-black">
+              <h4 className="text-[0.81rem] sm:text-[0.94rem] font-medium text-black">
                 Michelle Anna
               </h4>
               <p className="text-[0.75rem] mb-2 font-medium text-[#878787]">

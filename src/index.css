@@ -48,3 +48,20 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+
+
+@media screen and (max-width: 1225px) {
+  .img-container {
+    display: flex;
+    justify-content: flex-end; 
+  }
+  .imgstatic {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 1061px) {
+
+  .imgstatic {
+    width: 84%!important;
+  }
+}

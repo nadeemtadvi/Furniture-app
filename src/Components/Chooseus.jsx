@@ -3,54 +3,54 @@ import imgStatic from "../assets/Images/why-choose-us-img 1.svg";
 
 const Chooseus = () => {
   return (
-    <div className="max-w-screen-xl mx-auto py-16 px-3">
-      <div className="grid grid-cols-2 items-center">
-        <div>
-          <h4 className="capitalize text-[1.85rem] leading-tight font-semibold mb-4">
+    <div className="max-w-screen-xl mx-auto py-6 sm:py-16 px-2 sm:px-3">
+      <div className="lg:grid grid-cols-2 items-center">
+        <div className="lg:mb-0 mb-4 sm:mb-10">
+          <h4 className="capitalize text-[1.54rem] sm:text-[1.85rem] leading-tight font-semibold mb-4">
             Why choose us
           </h4>
-          <p className="text-[0.94rem] mb-10 font-normal text-[#878787]">
+          <p className="text-[0.81rem] sm:text-[0.94rem] mb-4 sm:mb-10 font-normal text-[#878787]">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum
             ipsa tempore non sunt. Unde distinctio consequatur quidem minus
             ullam qui laudantium alias placeat nihil.
           </p>
-          <div className="grid grid-cols-2 gap-4 ">
+          <div className="grid grid-cols-2 gap-2.5 sm:gap-4 ">
             <div className="">
               <div>ICON</div>
-              <p className="text-[0.97rem] mb-2 capitalize font-semibold">
+              <p className="text-[0.88rem] sm:text-[0.97rem] mb-2 capitalize font-semibold">
                 Fast & free Shipping
               </p>
-              <p className="text-[0.94rem] mb-4 font-normal text-[#878787]">
+              <p className="text-[0.81rem] sm:text-[0.94rem] mb-2 sm:mb-4 font-normal text-[#878787]">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum
                 deleniti accusamus sit ducimus, laudantium similique.
               </p>
             </div>
             <div className="">
               <div>ICON</div>
-              <p className="text-[0.97rem] mb-2 capitalize font-semibold">
+              <p className="text-[0.88rem] sm:text-[0.97rem] mb-2 capitalize font-semibold">
                 Fast & free Shipping
               </p>
-              <p className="text-[0.94rem] mb-4 font-normal text-[#878787]">
+              <p className="text-[0.81rem] sm:text-[0.94rem] mb-2 sm:mb-4 font-normal text-[#878787]">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum
                 deleniti accusamus sit ducimus, laudantium similique.
               </p>
             </div>
             <div className="">
               <div>ICON</div>
-              <p className="text-[0.97rem] mb-2 capitalize font-semibold">
+              <p className="text-[0.88rem] sm:text-[0.97rem] mb-2 capitalize font-semibold">
                 Fast & free Shipping
               </p>
-              <p className="text-[0.94rem] mb-4 font-normal text-[#878787]">
+              <p className="text-[0.81rem] sm:text-[0.94rem] mb-2 sm:mb-4 font-normal text-[#878787]">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum
                 deleniti accusamus sit ducimus, laudantium similique.
               </p>
             </div>
             <div className="">
               <div>ICON</div>
-              <p className="text-[0.97rem] mb-2 capitalize font-semibold">
+              <p className="text-[0.88rem] sm:text-[0.97rem] mb-2 capitalize font-semibold">
                 Fast & free Shipping
               </p>
-              <p className="text-[0.94rem] mb-4 font-normal text-[#878787]">
+              <p className="text-[0.81rem] sm:text-[0.94rem] mb-2 sm:mb-4 font-normal text-[#878787]">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum
                 deleniti accusamus sit ducimus, laudantium similique.
               </p>
@@ -58,7 +58,7 @@ const Chooseus = () => {
           </div>
         </div>
         <div className="self-center justify-self-center">
-            <img src={imgStatic} className="w-[350px]" alt="" />
+            <img src={imgStatic} className="sm:w-[240px] lg:w-[350px]" alt="" />
         </div>
       </div>
     </div>
