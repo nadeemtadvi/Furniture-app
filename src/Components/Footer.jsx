@@ -3,13 +3,14 @@ import { FaFacebookF } from "react-icons/fa";
 import { IoLogoInstagram } from "react-icons/io5";
 import { FaTwitter } from "react-icons/fa6";
 import { FaLinkedinIn } from "react-icons/fa6";
+import imgLogo from "../assets/Images/Shanti.png";
 
 const Footer = () => {
   return (
     <div className="max-w-screen-xl mx-auto py-6 sm:py-16 px-2 sm:px-3">
-      <h4 className="text-[1.54rem] sm:text-[1.85rem] font-semibold text-black mb-4">
-        Shanti Furniture
-      </h4>
+      <div className="">
+        <img src={imgLogo} className="w-[140px] rounded-[8px] mb-4" alt="" />
+      </div>
       <div className="sm:grid grid-cols-[37%_auto] gap-10 mb-4">
         <div className="text-[0.81rem] sm:text-[0.94rem] mb-4 sm:mb-0  font-normal text-[#878787]">
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error,

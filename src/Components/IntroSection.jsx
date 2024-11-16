@@ -10,7 +10,7 @@ const IntroSection = () => {
           <h4>Modern Interior</h4>
           <h4>Design Studio</h4>
           <div className="mt-4 sm:mt-12 font-semibold">
-            <button className="rounded-full border border-yellow-500 bg-yellow-500 text-[0.81rem] sm:text-[0.94rem] text-black p-[4px_22px_5px]">
+            <button className="rounded-full border border-yellow-400 bg-yellow-400 text-[0.81rem] sm:text-[0.94rem] text-black p-[4px_22px_5px]">
               Shop Now
             </button>
             <button className="ml-4 border border-white rounded-full text-white text-[0.81rem] sm:text-[0.94rem] p-[4px_22px_5px]">
