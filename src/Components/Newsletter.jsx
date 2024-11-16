@@ -31,7 +31,7 @@ const Newsletter = () => {
                 className="text-[0.86rem] w-[-webkit-fill-available] sm:w-auto mb-4 sm:mb-0 font-normal text-black placeholder:text-black focus:ring-1 focus:ring-teal-700 outline-none rounded-[10px] py-2.5 px-2 sm:px-3 border border-[#d4d4d4]"
               /></div>
               <div>
-                <span className=" rounded-[10px] flex items-center justify-center text-[1.4rem] h-[42px] px-2 sm:px-3 bg-teal-700 text-white"><FaTelegramPlane/></span></div>
+                <span className=" rounded-[10px] flex items-center justify-center text-[1.4rem] h-[42px] px-2 sm:px-3 bg-[#0f766e] text-white"><FaTelegramPlane/></span></div>
             </div>
           </form>
         </div>
