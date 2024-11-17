@@ -1,7 +1,8 @@
 import React from "react";
-import imgStatic from "../assets/Images/pngwing 2.svg";
+import imgNews from "../assets/Images/pngwing 2.svg";
 import { IoMailOutline } from "react-icons/io5";
 import { FaTelegramPlane } from "react-icons/fa";
+import { NewsletterConst } from "../Constant/constant";
 const Newsletter = () => {
   return (
     <div className="max-w-screen-xl mx-auto py-6 sm:py-16 px-2 sm:px-3">
@@ -11,7 +12,7 @@ const Newsletter = () => {
             <div className="flex-none text-gray-400 text-[1.6rem]"><IoMailOutline /></div>
             <div className="grow">
               <h4 className="text-[0.88rem] sm:text-[0.97rem] font-semibold text-black">
-                Subscribe to Newsletter
+                {NewsletterConst.TITLE}
               </h4>
             </div>
           </div>
@@ -20,14 +21,14 @@ const Newsletter = () => {
               <div>
               <input
                 type="text"
-                placeholder="Enter your name"
+                placeholder={NewsletterConst.INPUTNAME}
                 className="text-[0.86rem] w-[-webkit-fill-available] sm:w-auto mb-4 sm:mb-0 font-normal text-black placeholder:text-black focus:ring-1 focus:ring-teal-700 outline-none rounded-[10px] py-2.5 px-2 sm:px-3 border border-[#d4d4d4]"
               />
               </div>
               <div>
               <input
                 type="email"
-                placeholder="Enter your email"
+                placeholder={NewsletterConst.INPUTEMAIL}
                 className="text-[0.86rem] w-[-webkit-fill-available] sm:w-auto mb-4 sm:mb-0 font-normal text-black placeholder:text-black focus:ring-1 focus:ring-teal-700 outline-none rounded-[10px] py-2.5 px-2 sm:px-3 border border-[#d4d4d4]"
               /></div>
               <div>
@@ -36,7 +37,7 @@ const Newsletter = () => {
           </form>
         </div>
         <div className="">
-          <img src={imgStatic} alt="" />
+          <img src={imgNews} alt="" />
         </div>
       </div>
       

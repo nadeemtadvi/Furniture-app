@@ -1,10 +1,33 @@
-export const HeaderConst = {
-  HOME: "Home",
-  ABOUT: "About us",
-  BLOG: "Blog",
-  CONTACT: "Contact us",
-  SERVICE: "Services",
-};
+import imgStatic from "../assets/Images/product-1.svg";
+import imgStatic2 from "../assets/Images/product-2.svg";
+import imgStatic3 from "..//assets/Images/product-3.svg";
+import imgExp from "../assets/Images/why-choose-us-img 1.svg";
+import imageItem from "../assets/Images/product-1.svg";
+import imageItem2 from "../assets/Images/product-2.svg";
+import imageItem3 from "../assets/Images/product-3.svg";
+import { FiTruck } from "react-icons/fi";
+import { HiOutlineSupport } from "react-icons/hi";
+import { FiShoppingBag } from "react-icons/fi";
+import { PiArrowsCounterClockwise } from "react-icons/pi";
+import imageInt from "../assets/Images/img-grid-1 1.svg";
+import imageInt2 from "../assets/Images/img-grid-2 1.svg";
+import imageInt3 from "../assets/Images/img-grid-3 1.svg";
+import imgprofile from "../assets/Images/pexels-amir-abbaspoor-748889438-29391856.jpg";
+import imgBlog from "../assets/Images/post-1 1.svg";
+import imgBlog2 from "../assets/Images/post-2 1.svg";
+import imgBlog3 from "../assets/Images/post-3 1.svg";
+import { FaFacebookF } from "react-icons/fa";
+import { IoLogoInstagram } from "react-icons/io5";
+import { FaTwitter } from "react-icons/fa6";
+import { FaLinkedinIn } from "react-icons/fa6";
+
+export const HeaderConst = [ "Home",
+  "About us",
+  "Blog",
+  "Contact us",
+  "Services",]
+  
+
 export const IntroConst = {
   MODERN: "Modern Interior",
   STUDIO: "Design Studio",
@@ -18,13 +41,13 @@ export const ExploreConst = {
   EXPLORE: "Explore",
 };
 export const MultiChair = [
-  { CHAIR: "Nordiac Chair", PRICE: "100$", IMAGE: "" },
-  { CHAIR: "Nordiac Chair", PRICE: "100$", IMAGE: "" },
-  { CHAIR: "Nordiac Chair", PRICE: "100$", IMAGE: "" },
+  { CHAIR: "Nordiac Chair", PRICE: "100$", IMAGE: imgStatic },
+  { CHAIR: "Modern Chair", PRICE: "299$", IMAGE: imgStatic2 },
+  { CHAIR: "Crystal Chair", PRICE: "120$", IMAGE: imgStatic3 },
 ];
 
 export const ChooseConst = {
-  IMAGE: "",
+  IMAGE: imgExp,
   HEADING: "Why choose us",
   TITLE:
     "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum ipsa tempore non sunt. Unde distinctio consequatur quidem minus ullam qui laudantium alias placeat nihil.",
@@ -32,25 +55,25 @@ export const ChooseConst = {
 
 export const MultiItems = [
   {
-    ICON: "",
+    ICON: <FiTruck className="text-[1.5rem] mb-2" />,
     TITLE: "Fast & free Shipping",
     SUBTEXT:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum deleniti accusamus sit ducimus, laudantium similique.",
   },
   {
-    ICON: "",
+    ICON: <FiShoppingBag className="text-[1.5rem] mb-2" />,
     TITLE: "Fast & free Shipping",
     SUBTEXT:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum deleniti accusamus sit ducimus, laudantium similique.",
   },
   {
-    ICON: "",
+    ICON: <HiOutlineSupport className="text-[1.5rem] mb-2" />,
     TITLE: "Fast & free Shipping",
     SUBTEXT:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum deleniti accusamus sit ducimus, laudantium similique.",
   },
   {
-    ICON: "",
+    ICON: <PiArrowsCounterClockwise className="text-[1.5rem] mb-2" />,
     TITLE: "Fast & free Shipping",
     SUBTEXT:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum deleniti accusamus sit ducimus, laudantium similique.",
@@ -58,12 +81,13 @@ export const MultiItems = [
 ];
 
 export const InteriorConst = {
-  TITLE: "We help you make Modern Interior Design",
+  TITLE: "We help you make ",
+  BREAKTITLE:"Modern Interior Design",
   SUBTITLE:
     "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores quis possimus labore aliquid ratione rerum necessitatibus unde. Doloribus, atque porro.",
-  IMAGE1: "",
-  IMAGE2: "",
-  IMAGE3: "",
+  IMAGE1: imageInt,
+  IMAGE2: imageInt2,
+  IMAGE3: imageInt3,
   EXPLORE: "Explore",
 };
 
@@ -76,20 +100,20 @@ export const MultiInterior = [
 
 export const MultiNordiac = [
   {
-    ICON: "",
+    IMG: imageItem,
     CHAIR: "Nordiac Chair",
     TEXT: "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
     READ: "Read more",
   },
   {
-    ICON: "",
-    CHAIR: "Nordiac Chair",
+    IMG: imageItem2,
+    CHAIR: "Modern Chair",
     TEXT: "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
     READ: "Read more",
   },
   {
-    ICON: "",
-    CHAIR: "Nordiac Chair",
+    IMG: imageItem3,
+    CHAIR: "Crystal Chair",
     TEXT: "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
     READ: "Read more",
   },
@@ -99,43 +123,48 @@ export const TestimonialConst = {
 };
 export const MultiTestimonial = [
   {
-    IMAGE: "",
+    IMAGE: imgprofile,
     NAME: "Michelle Anna",
     PROFILE: "Ceo and Co-Founder, XYZ..",
     TEXT: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores quis possimus labore aliquid ratione rerum necessitatibus unde. Doloribus, atque porro. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates, natus. Lorem ipsum dolor sit amet.",
   },
   {
-    IMAGE: "",
+    IMAGE: imgprofile,
     NAME: "Michelle Anna",
     PROFILE: "Ceo and Co-Founder, XYZ..",
     TEXT: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores quis possimus labore aliquid ratione rerum necessitatibus unde. Doloribus, atque porro. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates, natus. Lorem ipsum dolor sit amet.",
   },
   {
-    IMAGE: "",
+    IMAGE: imgprofile,
     NAME: "Michelle Anna",
     PROFILE: "Ceo and Co-Founder, XYZ..",
     TEXT: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores quis possimus labore aliquid ratione rerum necessitatibus unde. Doloribus, atque porro. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates, natus. Lorem ipsum dolor sit amet.",
   },
 ];
-export const RecentBlog = {
+export const RecentBlogConst = {
   TITLE: "Recent Blog",
   VIEW: "view all posts",
 };
 export const MultiRecentBlog = [
   {
-    IMAGE: "",
+    IMAGE: imgBlog,
     TITLE: "First Time Home Owne Ideas",
-    TEXT: "by Nana Ama on Nov 18th 2024",
+    WRITER: "Nana Ama on ",
+    DATE: "Nov 18th 2024",
   },
   {
-    IMAGE: "",
+    IMAGE: imgBlog2,
     TITLE: "First Time Home Owne Ideas",
     TEXT: "by Nana Ama on Nov 18th 2024",
+    WRITER: "Nana Ama on ",
+    DATE: "Nov 18th 2024",
   },
   {
-    IMAGE: "",
+    IMAGE: imgBlog3,
     TITLE: "First Time Home Owne Ideas",
     TEXT: "by Nana Ama on Nov 18th 2024",
+    WRITER: "Nana Ama on ",
+    DATE: "Nov 18th 2024",
   },
 ];
 export const NewsletterConst = {
@@ -149,6 +178,7 @@ export const FooterConst = {
   CONTACT: ["Support", "Knowledge base", "Live chat"],
   JOB: ["Jobs", "Our team", "Leadership", "Privacy Policy"],
   CHAIR: ["Nordiac Chair", "Kruzo Aero", "Ergonomic"],
+  SOCIALICON:[<FaFacebookF/>, <IoLogoInstagram/>, <FaTwitter/>, <FaLinkedinIn/>]
 };
 export const CopyrightConst = {
   COPYRIGHT: "Copyright 2024 nadeeemtadvi1@gmail.com All Rights Reserved",

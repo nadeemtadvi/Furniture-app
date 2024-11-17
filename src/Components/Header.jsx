@@ -3,6 +3,7 @@ import { FiUser } from "react-icons/fi";
 import { FiShoppingCart } from "react-icons/fi";
 import imgLogo from "../assets/Images/Shanti.png";
 import { HiMenu } from "react-icons/hi";
+import { HeaderConst } from "../Constant/constant";
 
 const Header = () => {
   const [toggle, setToggle] = useState(false);
@@ -18,11 +19,9 @@ const Header = () => {
         <div className="flex items-center gap-16 text-[0.81rem] sm:text-[0.94rem]">
           <div className="hidden lg:block">
             <ul className="flex items-center gap-16">
-              <li>Home</li>
-              <li>About us</li>
-              <li>Services</li>
-              <li>Blog</li>
-              <li>Contact us</li>
+              {HeaderConst.map((item, index) => (
+                <li key={index}>{item}</li>
+              ))}
             </ul>
           </div>
           <div className="flex items-center gap-10 text-[1.2rem]">
@@ -40,29 +39,20 @@ const Header = () => {
                   </button>
                   {toggle ? (
                     <div className="">
-                      <div  onClick={handleToggle}  className="fixed z-10 bg-transparent top-0 right-0 left-0 bottom-0 m-auto "></div>
+                      <div
+                        onClick={handleToggle}
+                        className="fixed z-10 bg-transparent top-0 right-0 left-0 bottom-0 m-auto "
+                      ></div>
                       <div className="absolute z-20 top-[45px] rounded-[8px] overflow-hidden bg-white dark:bg-darksectionColor dark:text-white left-[-130px]">
                         <ul className="shadow-md min-w-[150px]  !pb-0 text-[0.94rem]">
-                          <li className="p-2.5  border-b border-gray-300 text-black ">
-                            {" "}
-                            Home
-                          </li>
-                          <li className="p-2.5  border-b border-gray-300 text-black">
-                            {" "}
-                            About us
-                          </li>
-                          <li className="p-2.5  border-b border-gray-300 text-black">
-                            {" "}
-                            Services
-                          </li>
-                          <li className="p-2.5  border-b border-gray-300 text-black">
-                            {" "}
-                            Blog
-                          </li>
-                          <li className="p-2.5  border-b border-gray-300 text-black">
-                            {" "}
-                            Contact us
-                          </li>
+                          {HeaderConst.map((item, index) => (
+                            <li
+                              className="p-2.5  border-b border-gray-300 text-black "
+                              key={index}
+                            >
+                              {item}
+                            </li>
+                          ))}
                         </ul>
                       </div>
                     </div>
