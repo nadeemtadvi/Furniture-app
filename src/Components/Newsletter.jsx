@@ -5,6 +5,7 @@ import { FaTelegramPlane } from "react-icons/fa";
 import { NewsletterConst } from "../Constant/constant";
 const Newsletter = () => {
   return (
+    <div className="bg-[#0f766e12]">
     <div className="max-w-screen-xl mx-auto py-6 sm:py-16 px-2 sm:px-3">
       <div className="sm:flex ">
         <div className="grow self-center">
@@ -41,6 +42,7 @@ const Newsletter = () => {
         </div>
       </div>
       
+    </div>
     </div>
   );
 };

@@ -14,7 +14,7 @@ import Copyright from "../Components/Copyright";
 const Home = () => {
   return (
     <div>
-      <div className="bg-teal-700 sm:h-[90vh]">
+      <div className="  sm:h-[100vh] bg-whole">
         <Header />
         <IntroSection />
       </div>
