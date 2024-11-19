@@ -1,5 +1,4 @@
 import React from "react";
-// import imgNews from "../assets/Images/pngwing 2.svg";
 import imgNews from "../assets/Images/pngwing.svg";
 import { IoMailOutline } from "react-icons/io5";
 import { FaTelegramPlane } from "react-icons/fa";

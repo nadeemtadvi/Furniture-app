@@ -14,7 +14,7 @@ const Chooseus = () => {
           </p>
           <div className="grid grid-cols-2 gap-2.5 sm:gap-4 ">
             {MultiItems.map((item, index) => (
-              <div className="">
+              <div key={index} className="">
                 <div className="relative">
                   <div>{item.ICON}</div>
                   <div className="absolute z-[-1] top-[4px] left-[9px] w-[24px] h-[24px] rounded-full bg-gray-200"></div>

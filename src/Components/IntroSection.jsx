@@ -1,6 +1,4 @@
 import React from "react";
-// import staticImage from "../assets/Images/couch 1.svg";
-import staticImage from "../assets/Images/BG/dada_design-Ha_S_TX6Vc4-unsplash.jpg";
 import { IntroConst } from "../Constant/constant";
 
 const IntroSection = () => {
