@@ -1,5 +1,6 @@
 import React from "react";
-import imgNews from "../assets/Images/pngwing 2.svg";
+// import imgNews from "../assets/Images/pngwing 2.svg";
+import imgNews from "../assets/Images/pngwing.svg";
 import { IoMailOutline } from "react-icons/io5";
 import { FaTelegramPlane } from "react-icons/fa";
 import { NewsletterConst } from "../Constant/constant";
@@ -9,10 +10,10 @@ const Newsletter = () => {
     <div className="max-w-screen-xl mx-auto py-6 sm:py-16 px-2 sm:px-3">
       <div className="sm:flex ">
         <div className="grow self-center">
-          <div className="flex items-center gap-3  mb-4 sm:mb-6">
-            <div className="flex-none text-gray-400 text-[1.6rem]"><IoMailOutline /></div>
+          <div className="flex items-center gap-3  mb-4 sm:mb-8">
+            <div className="flex-none text-gray-600 text-[1.9rem]"><IoMailOutline /></div>
             <div className="grow">
-              <h4 className="text-[0.88rem] sm:text-[0.97rem] font-semibold text-black">
+              <h4 className="text-[1.54rem] sm:text-[1.85rem] font-semibold text-black">
                 {NewsletterConst.TITLE}
               </h4>
             </div>
@@ -38,7 +39,7 @@ const Newsletter = () => {
           </form>
         </div>
         <div className="">
-          <img src={imgNews} alt="" />
+          <img src={imgNews} className="w-[280px] h-[280px] mx-auto lg:mr-24" alt="" />
         </div>
       </div>
       

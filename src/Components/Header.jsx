@@ -14,7 +14,7 @@ const Header = () => {
     <div className="max-w-screen-xl mx-auto  py-6 text-[1.2rem] text-white h-[72px] flex px-2 sm:px-3 font-medium">
       <div className="flex items-center justify-between w-full mx-auto">
         <div>
-          <img src={imgLogo} className="w-[140px] rounded-[8px] " alt="" />
+          <img src={imgLogo} className="w-[92px] sm:w-[140px] rounded-[8px] " alt="" />
         </div>
         <div className="flex items-center gap-16 text-[0.91rem] sm:text-[1rem]">
           <div className="hidden lg:block">
