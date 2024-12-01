@@ -68,7 +68,7 @@ html, body{
   }
 }
 .bg-whole{
-  background-image: url("/src/assets/Images/BG/pexels-mateusz-pielech-1032276948-29252368\ \(1\).jpg");
+  background-image: url("/src/assets/Images/backgroundimg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

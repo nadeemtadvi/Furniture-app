@@ -1,5 +1,5 @@
 import React from "react";
-import imgNews from "../assets/Images/pngwing.svg";
+import imgNews from "../assets/Images/pngwing.png";
 import { IoMailOutline } from "react-icons/io5";
 import { FaTelegramPlane } from "react-icons/fa";
 import { NewsletterConst } from "../Constant/constant";
