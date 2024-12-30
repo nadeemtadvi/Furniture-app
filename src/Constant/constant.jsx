@@ -37,7 +37,7 @@ export const IntroConst = {
 export const ExploreConst = {
   CRAFT: "Crafted with excellent material.",
   SUBTEXT:
-    "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores quis possimus labore aliquid ratione rerum necessitatibus unde. Doloribus, atque porro.",
+    "Lorem ipsum dolor, sit amet conse ctetur adipi sicing elit. Aspe riores quis poss imus labore aliquid ratione rerum neces sita tibus unde. Dolo ribus, atque porro.",
   EXPLORE: "Explore",
 };
 export const MultiChair = [
@@ -50,7 +50,7 @@ export const ChooseConst = {
   IMAGE: imgExp,
   HEADING: "Why choose us",
   TITLE:
-    "Lorem, ipsum dolor sit amet consec tetur adipi sicing elit. Volup tatum ipsa temp ore non sunt.",
+    "Lorem, ips um dolor sit amet con sec tetur adipi sicing elit. Volup tatum ipsa temp ore non sunt.",
 };
 
 export const MultiItems = [
@@ -58,33 +58,30 @@ export const MultiItems = [
     ICON: <FiTruck className="text-[1.5rem] mb-2" />,
     TITLE: "Fast & free Shipping",
     SUBTEXT:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum deleniti accusamus sit ducimus, laudantium similique.",
+      "Lorem ips um do lor sit amet, conec tetur adi pisi cing elit Ipsum dele niti.",
   },
   {
     ICON: <FiShoppingBag className="text-[1.5rem] mb-2" />,
     TITLE: "Fast & free Shipping",
     SUBTEXT:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum deleniti accusamus sit ducimus, laudantium similique.",
-  },
+     "Lorem ips um do lor sit amet, conec tetur adi pisi cing elit Ipsum dele niti.",  },
   {
     ICON: <HiOutlineSupport className="text-[1.5rem] mb-2" />,
     TITLE: "Fast & free Shipping",
     SUBTEXT:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum deleniti accusamus sit ducimus, laudantium similique.",
-  },
+   "Lorem ips um do lor sit amet, conec tetur adi pisi cing elit Ipsum dele niti.",  },
   {
     ICON: <PiArrowsCounterClockwise className="text-[1.5rem] mb-2" />,
     TITLE: "Fast & free Shipping",
     SUBTEXT:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum deleniti accusamus sit ducimus, laudantium similique.",
-  },
+ "Lorem ips um do lor sit amet, conec tetur adi pisi cing elit Ipsum dele niti.",  },
 ];
 
 export const InteriorConst = {
   TITLE: "We help you make ",
   BREAKTITLE:"Modern Interior Design",
   SUBTITLE:
-    "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores quis possimus labore aliquid ratione rerum necessitatibus unde. Doloribus, atque porro.",
+    "Lorem ipsum dolor, sit amet conse ctetur adipi sicing elit. Aspe riores quis poss imus labore aliquid ratione rerum neces sita tibus unde. Doloribus, atque porro.",
   IMAGE1: imageInt,
   IMAGE2: imageInt2,
   IMAGE3: imageInt3,
@@ -92,29 +89,29 @@ export const InteriorConst = {
 };
 
 export const MultiInterior = [
-  { TEXT: "Lorem ipsum dolor, sit amet consectetur adipisicing elit." },
-  { TEXT: "Lorem ipsum dolor, sit amet consectetur adipisicing elit." },
-  { TEXT: "Lorem ipsum dolor, sit amet consectetur adipisicing elit." },
-  { TEXT: "Lorem ipsum dolor, sit amet consectetur adipisicing elit." },
+  { TEXT: "Lorem ip sum dolor, sit amet consec tetur adipi sicing elit." },
+  { TEXT: "Lorem ip sum dolor, sit amet consec tetur adipi sicing elit." },
+  { TEXT: "Lorem ip sum dolor, sit amet consec tetur adipi sicing elit." },
+  { TEXT: "Lorem ip sum dolor, sit amet consec tetur adipi sicing elit." },
 ];
 
 export const MultiNordiac = [
   {
     IMG: imageItem,
     CHAIR: "Nordiac Chair",
-    TEXT: "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+    TEXT: "Lorem ipsum dolor, sit amet consec tetur adipi sicing elit.",
     READ: "Read more",
   },
   {
     IMG: imageItem2,
     CHAIR: "Modern Chair",
-    TEXT: "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+    TEXT: "Lorem ipsum dolor, sit amet consec tetur adipi sicing elit.",
     READ: "Read more",
   },
   {
     IMG: imageItem3,
     CHAIR: "Crystal Chair",
-    TEXT: "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+    TEXT: "Lorem ipsum dolor, sit amet consec tetur adipi sicing elit.",
     READ: "Read more",
   },
 ];
@@ -126,19 +123,19 @@ export const MultiTestimonial = [
     IMAGE: imgprofile,
     NAME: "Michelle Anna",
     PROFILE: "Ceo and Co-Founder, XYZ..",
-    TEXT: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores quis possimus labore aliquid ratione rerum necessitatibus unde. Doloribus, atque porro. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates, natus. Lorem ipsum dolor sit amet.",
+    TEXT: "Lorem ipsum dolor, sit amet consec tetur adipi sicing elit. Aspe riores quis poss imus labore aliquid ratione rerum neces sita tibus unde. Doloribus, atque porro. Lorem ipsum dolor sit amet conse ctetur, adipi sicing elit. Volu ptates, natus. Lorem ipsum dolor sit amet.",
   },
   {
     IMAGE: imgprofile,
     NAME: "Michelle Anna",
     PROFILE: "Ceo and Co-Founder, XYZ..",
-    TEXT: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores quis possimus labore aliquid ratione rerum necessitatibus unde. Doloribus, atque porro. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates, natus. Lorem ipsum dolor sit amet.",
+    TEXT: "Lorem ipsum dolor, sit amet conse ctetur adipi sicing elit. Aspe riores quis poss imus labore aliquid ratione rerum neces sita tibus unde. Doloribus, atque porro. Lorem ipsum dolor sit amet conse ctetur, adipi sicing elit. Volu ptates, natus. Lorem ipsum dolor sit amet.",
   },
   {
     IMAGE: imgprofile,
     NAME: "Michelle Anna",
     PROFILE: "Ceo and Co-Founder, XYZ..",
-    TEXT: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores quis possimus labore aliquid ratione rerum necessitatibus unde. Doloribus, atque porro. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates, natus. Lorem ipsum dolor sit amet.",
+    TEXT: "Lorem ipsum dolor, sit amet conse ctetur adipi sicing elit. Aspe riores quis poss imus labore aliquid ratione rerum neces sita tibus unde. Doloribus, atque porro. Lorem ipsum dolor sit amet conse ctetur, adipi sicing elit. Volu ptates, natus. Lorem ipsum dolor sit amet.",
   },
 ];
 export const RecentBlogConst = {
@@ -173,7 +170,7 @@ export const NewsletterConst = {
   INPUTEMAIL: "Enter your email",
 };
 export const FooterConst = {
-  TEXT: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error, placeat beatae! Error ab totam adipisci nam porro. Nemo quisquam quos cupiditate vero quae perspiciatis repudiandae.",
+  TEXT: "Lorem ipsum dolor, sit amet conse ctetur adipi sicing elit. Error, placeat beatae! Error ab totam adi pisci nam porro. Nemo quis quam quos cupid itate vero quae perspi ciatis repudi andae.",
   ABOUT: ["About us", "Services", "Blog", "Contact us"],
   CONTACT: ["Support", "Knowledge base", "Live chat"],
   JOB: ["Jobs", "Our team", "Leadership", "Privacy Policy"],
