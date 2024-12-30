@@ -13,7 +13,7 @@ const Testimonial = () => {
   };
   return (
     <div className="max-w-screen-xl mx-auto py-6 sm:py-16 px-2 sm:px-3">
-      <h4 className="text-[1.54rem] sm:text-[1.85rem] leading-tight font-semibold mb-4 sm:mb-10 text-center">
+      <h4 className="text-[2rem] leading-tight font-semibold mb-4 sm:mb-10 text-center">
         {TestimonialConst.TITLE}
       </h4>
       <div className="">
@@ -21,7 +21,7 @@ const Testimonial = () => {
           {MultiTestimonial.map((item, index) => (
             <div key={index} className="">
               <div className="sm:w-[600px] mx-auto py-3 sm:py-6 mb-6 rounded-[10px] bg-gray-100">
-                <p className=" text-[0.81rem] sm:text-[0.94rem] px-3 sm:px-6 mb-4 sm:mb-8 font-normal text-black text-justify">
+                <p className=" text-[1.24rem] px-3 sm:px-6 mb-4 sm:mb-8 font-normal text-black text-justify">
                   {item.TEXT}
                 </p>
                 <div className="flex items-center justify-center ">
@@ -31,10 +31,10 @@ const Testimonial = () => {
                       className="w-[70px] h-[70px] rounded-full mx-auto object-cover mb-2  "
                       alt=""
                     />
-                    <h4 className="text-[0.81rem] sm:text-[0.94rem] font-medium text-black">
+                    <h4 className="text-[1.24rem] font-medium text-black">
                       {item.NAME}
                     </h4>
-                    <p className="text-[0.75rem] mb-2 font-medium text-[#878787]">
+                    <p className="text-[1rem] mb-2 font-medium text-[#878787]">
                       {item.PROFILE}
                     </p>
                   </div>

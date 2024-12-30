@@ -32,10 +32,10 @@ const InteriorDesign = () => {
           </div>
         </div>
         <div>
-          <h4 className="text-[1.54rem] sm:text-[1.85rem] leading-tight font-semibold mb-4 sm:mb-6">
+          <h4 className="text-[2rem] leading-tight font-semibold mb-4 sm:mb-6">
             {InteriorConst.TITLE} <br /> {InteriorConst.BREAKTITLE}
           </h4>
-          <p className="text-[0.81rem] sm:text-[0.94rem] mb-4 sm:mb-8 font-normal text-[#878787]">
+          <p className="text-[1.24rem] mb-4 sm:mb-8 font-normal text-[#878787]">
             {InteriorConst.SUBTITLE}
           </p>
           <div>
@@ -43,14 +43,14 @@ const InteriorDesign = () => {
               {MultiInterior.map((item, index) => (
                 <li key={index} className="grid grid-cols-[35px_auto]">
                   <GoDot className="mt-1 text-[0.9rem] " />
-                  <p className="grow text-[0.81rem] sm:text-[0.94rem] mb-2 sm:mb-4 font-normal text-[#878787]">
+                  <p className="grow text-[1.24rem] mb-2 sm:mb-4 font-normal text-[#878787]">
                     {item.TEXT}
                   </p>
                 </li>
               ))}
             </ul>
           </div>
-          <button className="text-white font-semibold bg-neutral-700 text-[0.81rem] sm:text-[0.94rem] rounded-full p-[4px_24px_5px]">
+          <button className="text-white font-semibold bg-neutral-700 text-[1.24rem] rounded-full p-[4px_24px_5px]">
             {InteriorConst.EXPLORE}
           </button>
         </div>

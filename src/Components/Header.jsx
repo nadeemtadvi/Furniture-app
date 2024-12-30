@@ -16,7 +16,7 @@ const Header = () => {
         <div>
           <img src={imgLogo} className="w-[92px] sm:w-[140px] rounded-[8px] " alt="" />
         </div>
-        <div className="flex items-center gap-16 text-[0.91rem] sm:text-[1rem]">
+        <div className="flex items-center gap-16 text-[1.24rem]">
           <div className="hidden lg:block">
             <ul className="flex items-center gap-16">
               {HeaderConst.map((item, index) => (

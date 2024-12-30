@@ -9,32 +9,32 @@ const Footer = () => {
         <img src={imgLogo} className="w-[140px] rounded-[8px] mb-4" alt="" />
       </div>
       <div className="sm:grid grid-cols-[37%_auto] gap-10 mb-4">
-        <div className="text-[0.81rem] sm:text-[0.94rem] mb-4 sm:mb-0  font-normal text-[#878787]">
+        <div className="text-[1.24rem] mb-4 sm:mb-0  font-normal text-[#878787]">
           {FooterConst.TEXT}
         </div>
         <div className="grid grid-cols-2 sm:grid-cols-4">
-          <ul className="text-[0.81rem] sm:text-[0.94rem] mb-2 sm:mb-0  font-normal text-[#878787]">
+          <ul className="text-[1.24rem] mb-2 sm:mb-0  font-normal text-[#878787]">
             {FooterConst.ABOUT.map((item, index) => (
               <li key={index} className="mb-1">
                 {item}
               </li>
             ))}
           </ul>
-          <ul className="text-[0.81rem] sm:text-[0.94rem] mb-2 sm:mb-0  font-normal text-[#878787]">
+          <ul className="text-[1.24rem] mb-2 sm:mb-0  font-normal text-[#878787]">
             {FooterConst.CONTACT.map((item, index) => (
               <li key={index} className="mb-1">
                 {item}
               </li>
             ))}
           </ul>
-          <ul className="text-[0.81rem] sm:text-[0.94rem] mb-2 sm:mb-0  font-normal text-[#878787]">
+          <ul className="text-[1.24rem] mb-2 sm:mb-0  font-normal text-[#878787]">
             {FooterConst.JOB.map((item, index) => (
               <li key={index} className="mb-1">
                 {item}
               </li>
             ))}
           </ul>
-          <ul className="text-[0.81rem] sm:text-[0.94rem] font-normal text-[#878787]">
+          <ul className="text-[1.24rem] font-normal text-[#878787]">
             {FooterConst.CHAIR.map((item, index) => (
               <li key={index} className="mb-1">
                 {item}

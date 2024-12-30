@@ -12,7 +12,7 @@ const Newsletter = () => {
           <div className="flex items-center gap-3  mb-4 sm:mb-8">
             <div className="flex-none text-gray-600 text-[1.9rem]"><IoMailOutline /></div>
             <div className="grow">
-              <h4 className="text-[1.54rem] sm:text-[1.85rem] font-semibold text-black">
+              <h4 className="text-[2rem] font-semibold text-black">
                 {NewsletterConst.TITLE}
               </h4>
             </div>
@@ -23,14 +23,14 @@ const Newsletter = () => {
               <input
                 type="text"
                 placeholder={NewsletterConst.INPUTNAME}
-                className="text-[0.86rem] w-[-webkit-fill-available] sm:w-auto mb-4 sm:mb-0 font-normal text-black placeholder:text-black focus:ring-1 focus:ring-teal-700 outline-none rounded-[10px] py-2.5 px-2 sm:px-3 border border-[#d4d4d4]"
+                className="text-[1rem] w-[-webkit-fill-available] sm:w-auto mb-4 sm:mb-0 font-normal text-black placeholder:text-black focus:ring-1 focus:ring-teal-700 outline-none rounded-[10px] py-2.5 px-2 sm:px-3 border border-[#d4d4d4]"
               />
               </div>
               <div>
               <input
                 type="email"
                 placeholder={NewsletterConst.INPUTEMAIL}
-                className="text-[0.86rem] w-[-webkit-fill-available] sm:w-auto mb-4 sm:mb-0 font-normal text-black placeholder:text-black focus:ring-1 focus:ring-teal-700 outline-none rounded-[10px] py-2.5 px-2 sm:px-3 border border-[#d4d4d4]"
+                className="text-[1rem] w-[-webkit-fill-available] sm:w-auto mb-4 sm:mb-0 font-normal text-black placeholder:text-black focus:ring-1 focus:ring-teal-700 outline-none rounded-[10px] py-2.5 px-2 sm:px-3 border border-[#d4d4d4]"
               /></div>
               <div>
                 <span className=" rounded-[10px] flex items-center justify-center text-[1.4rem] h-[42px] px-2 sm:px-3 bg-[#0f766e] text-white"><FaTelegramPlane/></span></div>

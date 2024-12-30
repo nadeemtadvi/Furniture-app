@@ -41,13 +41,13 @@ const Explore = () => {
     <div className="max-w-screen-xl mx-auto py-6  sm:py-16 px-2 sm:px-3">
       <div className="lg:grid grid-cols-[25%_auto] items-center gap-12">
         <div className=" lg:mb-0 mb-10 sm:mb-16">
-          <h4 className="text-[1.54rem] sm:text-[1.85rem] leading-tight font-semibold mb-4">
+          <h4 className="text-[2rem] leading-tight font-semibold mb-4">
             {ExploreConst.CRAFT}
           </h4>
-          <p className="text-[0.81rem] sm:text-[0.94rem] mb-5 sm:mb-10 font-normal text-[#878787]">
+          <p className="text-[1.24rem] mb-5 sm:mb-10 font-normal text-[#878787]">
             {ExploreConst.SUBTEXT}
           </p>
-          <button className="font-semibold text-white bg-neutral-700 text-[0.81rem] sm:text-[0.94rem] rounded-full p-[4px_24px_5px]">
+          <button className="font-semibold text-white bg-neutral-700 text-[1.24rem] rounded-full p-[4px_24px_5px]">
             {ExploreConst.EXPLORE}
           </button>
         </div>
@@ -61,7 +61,7 @@ const Explore = () => {
                     className=" mb-3 sm:mb-6 mx-auto "
                     alt=""
                   />
-                  <div className="text-[0.81rem] sm:text-[0.94rem]  text-center ">
+                  <div className="text-[1.24rem]  text-center ">
                     <h4 className="font-semibold">{item.CHAIR}</h4>
                     <h4 className="font-bold text-[1rem]">{item.PRICE}</h4>
                   </div>

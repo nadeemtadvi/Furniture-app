@@ -5,10 +5,10 @@ const RecentBlog = () => {
   return (
     <div className="max-w-screen-xl mx-auto py-6 sm:py-16 px-2 sm:px-3">
       <div className="flex items-center justify-between mb-4 sm:mb-6">
-        <h4 className="text-[1.54rem] sm:text-[1.85rem] leading-tight font-semibold ">
+        <h4 className="text-[2rem] leading-tight font-semibold ">
           {RecentBlogConst.TITLE}
         </h4>
-        <h5 className="capitalize text-[0.81rem] sm:text-[0.94rem] font-medium text-black  border-b-2 border-black">
+        <h5 className="capitalize text-[1.24rem] font-medium text-black  border-b-2 border-black">
           {RecentBlogConst.VIEW}
         </h5>
       </div>
@@ -20,10 +20,10 @@ const RecentBlog = () => {
               className="rounded-[8px] w-full mb-4 sm:mb-6"
               alt=""
             />
-            <h4 className="text-[0.81rem] sm:text-[0.94rem] font-semibold text-black ">
+            <h4 className="text-[1.24rem] font-semibold text-black ">
               {item.TITLE}
             </h4>
-            <p className="text-[0.68rem] font-normal text-black ">
+            <p className="text-[0.89rem] font-normal text-black ">
               <span className="italic">by</span>
               <span className="font-semibold"> {item.WRITER}</span>
               <span className="italic"> on</span>

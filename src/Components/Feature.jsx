@@ -47,13 +47,13 @@ const Feature = () => {
                   <div className="absolute top-0 left-0 right-0 bottom-0 m-auto bg-gray-200 rounded-[8px] w-[90px] h-[90px] z-[-1]"></div>
                 </div>
                 <div className="grow self-center">
-                  <h4 className="text-[0.81rem] sm:text-[0.94rem] mb-2 capitalize font-semibold">
+                  <h4 className="text-[1.24rem] mb-2 capitalize font-semibold">
                     {item.CHAIR}
                   </h4>
-                  <p className="text-[0.81rem] sm:text-[0.94rem] mb-2 font-normal text-[#878787]">
+                  <p className="text-[1.24rem] mb-2 font-normal text-[#878787]">
                     {item.TEXT}
                   </p>
-                  <p className="text-[0.81rem] sm:text-[0.94rem] mb-4 font-medium text-[#5e5e5e]">
+                  <p className="text-[1.24rem] mb-4 font-medium text-[#5e5e5e]">
                     {item.READ}
                   </p>
                 </div>
