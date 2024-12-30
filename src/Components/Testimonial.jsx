@@ -21,7 +21,7 @@ const Testimonial = () => {
           {MultiTestimonial.map((item, index) => (
             <div key={index} className="">
               <div className="sm:w-[600px] mx-auto py-3 sm:py-6 mb-6 rounded-[10px] bg-gray-100">
-                <p className=" text-[1.24rem] px-3 sm:px-6 mb-4 sm:mb-8 font-normal text-black text-justify">
+                <p className=" text-[1.24rem] px-3 sm:px-6 mb-4 sm:mb-8 font-normal text-black ">
                   {item.TEXT}
                 </p>
                 <div className="flex items-center justify-center ">

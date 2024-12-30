@@ -44,7 +44,7 @@ const Header = () => {
                         className="fixed z-10 bg-transparent top-0 right-0 left-0 bottom-0 m-auto "
                       ></div>
                       <div className="absolute z-20 top-[45px] rounded-[8px] overflow-hidden bg-white dark:bg-darksectionColor dark:text-white left-[-130px]">
-                        <ul className="shadow-md min-w-[150px]  !pb-0 text-[0.94rem]">
+                        <ul className="shadow-md min-w-[150px]  !pb-0 text-[1rem]">
                           {HeaderConst.map((item, index) => (
                             <li
                               className="p-2.5  border-b border-gray-300 text-black "

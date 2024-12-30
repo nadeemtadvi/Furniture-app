@@ -50,7 +50,7 @@ export const ChooseConst = {
   IMAGE: imgExp,
   HEADING: "Why choose us",
   TITLE:
-    "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum ipsa tempore non sunt. Unde distinctio consequatur quidem minus ullam qui laudantium alias placeat nihil.",
+    "Lorem, ipsum dolor sit amet consec tetur adipi sicing elit. Volup tatum ipsa temp ore non sunt.",
 };
 
 export const MultiItems = [
